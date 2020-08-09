@@ -1,14 +1,14 @@
 {
-  "name": "baby_names_spa",
+  "name": "react_redux_boilerplate",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@babel/core": "7.9.0",
     "babel-jest": "^24.9.0",
-    "babel-loader": "8.1.0",
     "babel-preset-react-app": "^9.1.2",
     "bootstrap": "^4.5.0",
-    "css-loader": "3.4.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1",
     "react": "^16.13.1",
     "react-app-polyfill": "^1.0.6",
     "react-bootstrap": "^1.0.0",
@@ -19,7 +19,7 @@
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "sass-loader": "8.0.2"
+    "typescript": ">=2.8.0"
   },
   "scripts": {
     "start": "react-scripts start",

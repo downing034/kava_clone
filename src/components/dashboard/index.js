@@ -17,6 +17,7 @@ export default function Dashboard() {
   const dispatch = useDispatch();
 
   useEffect(() => {
+    // get the data initally right away
     dispatch(getBnbSupplyData())
       .then(dispatch(getBnbPriceData()))
       .then(dispatch(getKavaData()))
@@ -24,6 +25,19 @@ export default function Dashboard() {
       .then(dispatch(getRewardsParamsData()))
       .then(dispatch(getCdpData()))
       .then(dispatch(getCdpParamsData()))
+
+    // make the api calls every minute to update the dashboard automatically
+    const interval = setInterval(() => {
+      dispatch(getBnbSupplyData())
+        .then(dispatch(getBnbPriceData()))
+        .then(dispatch(getKavaData()))
+        .then(dispatch(getRewardsPeriodData()))
+        .then(dispatch(getRewardsParamsData()))
+        .then(dispatch(getCdpData()))
+        .then(dispatch(getCdpParamsData()))
+      }, 60000);
+    return () => clearInterval(interval);
+
   }, [dispatch]);
 
   // selectors

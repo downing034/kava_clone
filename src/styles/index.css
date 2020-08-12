@@ -25,11 +25,13 @@ body {
 }
 
 #locked-card {
-  padding-left: 0px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
 }
 
 #loans-card {
-  padding-right: 0px;
+  padding-left: 7.5px;
+  padding-right: 7.5px;
 }
 
 .text-medium {
@@ -302,7 +304,8 @@ body {
 }
 
 .table-container {
-  padding-right: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .center-it {

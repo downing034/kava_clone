@@ -1,0 +1,16 @@
+<svg id="value-locked-icon" xmlns="http://www.w3.org/2000/svg" width="32.533" height="35.914" viewBox="0 0 32.533 35.914">
+  <g id="Kava_Icon_CDP" transform="translate(0 0)">
+    <path id="Path_843" data-name="Path 843" d="M78.317,83.757H50.3V49.9H78.317Z" transform="translate(-45.784 -47.843)" fill="#ffdedb"/>
+    <rect id="Rectangle_262" data-name="Rectangle 262" width="27.805" height="33.55" transform="translate(2.364)" fill="#ff4345"/>
+    <rect id="Rectangle_263" data-name="Rectangle 263" width="1.891" height="15.959" transform="matrix(0.706, -0.708, 0.708, 0.706, 9.959, 11.83)" fill="#fff"/>
+    <rect id="Rectangle_264" data-name="Rectangle 264" width="15.959" height="1.891" transform="matrix(0.706, -0.708, 0.708, 0.706, 9.975, 21.762)" fill="#fff"/>
+    <rect id="Rectangle_265" data-name="Rectangle 265" width="1.891" height="15.959" transform="translate(15.307 8.821) rotate(-0.102)" fill="#fff"/>
+    <rect id="Rectangle_266" data-name="Rectangle 266" width="15.959" height="1.891" transform="translate(8.297 15.856) rotate(-0.105)" fill="#fff"/>
+    <g id="Group_384" data-name="Group 384" transform="translate(10.379 10.923)">
+      <circle id="Ellipse_42" data-name="Ellipse 42" cx="4.918" cy="4.918" r="4.918" transform="translate(0.946 0.946)" fill="#ff4345"/>
+      <path id="Path_844" data-name="Path 844" d="M80.964,99.127a5.864,5.864,0,1,1,5.864-5.864A5.863,5.863,0,0,1,80.964,99.127Zm0-9.836a3.972,3.972,0,1,0,3.972,3.972A3.966,3.966,0,0,0,80.964,89.291Z" transform="translate(-75.1 -87.4)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_267" data-name="Rectangle 267" width="4.729" height="4.09" transform="translate(0 2.057)" fill="#ff4345"/>
+    <rect id="Rectangle_268" data-name="Rectangle 268" width="4.729" height="4.09" transform="translate(0 27.734)" fill="#ff4345"/>
+  </g>
+</svg>

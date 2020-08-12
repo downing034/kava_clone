@@ -1,13 +1,337 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  background-color: rgb(247, 245, 244);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.heading-1 {
+  position: relative;
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 55px;
+  line-height: 60px;
+  font-weight: bold;
+  color: #333;
 }
+
+.hero {
+  max-width: 450px;
+  min-width: auto;
+  margin-bottom: 0px;
+  font-family: Inter, sans-serif;
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+#locked-card {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+#loans-card {
+  padding-left: 7.5px;
+  padding-right: 7.5px;
+}
+
+.text-medium {
+  position: relative;
+  max-width: 50px;
+  min-width: 540px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.overview {
+  padding-top: 0px;
+  padding-bottom: 0vh;
+  font-weight: 600;
+}
+
+.card {
+  border-radius: 13px;
+  border: 1px solid rgba(165, 159, 158, 0.6);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.18);
+}
+
+.card-body {
+  padding: 30px 25px 25px 25px;
+}
+
+.card-footer {
+  background-color: #f6f6f7;
+  border-top: none;
+  /* react-bootstrap is stomping out the radius changes */
+  border-radius: 0px 0px 13px 13px !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 68px;
+}
+
+.label-small {
+  font-family: Inter, sans-serif;
+  color: #7a8386;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.digit {
+  display: block;
+  font-family: Inter, sans-serif;
+  color: #1e1e1e;
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: 500;
+}
+
+.value-locked {
+  font-weight: 500;
+}
+
+.divider {
+  height: 19px;
+}
+
+.label-small-wrapper {
+  display: flex;
+  padding: 0px 25px 20px 0px;
+}
+
+.arrow-down {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.asset {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.asset-left {
+  text-align: left;
+}
+
+.data-right {
+  text-align: right;
+}
+
+.progress {
+  height: 5px;
+}
+
+.progress-bar {
+  background-color: rgb(255, 86, 79);
+}
+
+.progress-bar-disabled .progress-bar {
+  background-color: rgb(255,234,234);
+}
+
+.percent-container {
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 2vh;
+}
+
+.percent {
+  position: static;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: right;
+}
+
+.binance-coin-percent {
+  font-size: 15px;
+  margin-top: -10px;
+}
+
+.progress-bar-container {
+  width: 100%;
+  display: block;
+}
+
+.percent-status-container {
+  width: 15%;
+  display: block;
+  height: 5px;
+}
+
+.coming-soon {
+  color: #7a8386;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: -10px;
+  word-wrap: break-word;
+}
+
+.text-block-15 {
+  height: 15px;
+  max-height: 15px;
+  max-width: 400px;
+  margin-top: 5px;
+  float: none;
+  clear: none;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: left;
+}
+
+.stats-divider {
+  left: 50%;
+  top: 10px;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  width: 1px;
+  height: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: rgba(180, 185, 187, 0.5);
+}
+
+.kava-coin-price {
+  display: inline-block;
+  margin-right: 10px;
+
+}
+
+.usdx-savings {
+  display: block;
+  margin-right: 10px;
+
+}
+
+.usdx-savings-wrapper {
+  display: block;
+}
+
+.usdx-savings-rate {
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.kava-price {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.kava-price-percent {
+  display: inline-block;
+  padding: 4px 5px;
+  border-radius: 4px;
+  background-color: #06d6a0;
+  color: #fff;
+  font-size: 13px;
+  line-height: 13px;
+}
+
+.label-smallcaps {
+  font-family: Inter, sans-serif;
+  color: #7a8386;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.rewards-distributed {
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+}
+
+.table-card {
+  margin-top: 40px;
+  width: 100%;
+}
+
+
+.card-header {
+  background-color: white;
+  border-top: none;
+  /* react-bootstrap is stomping out the radius changes */
+  border-radius: 13px 13px 0px 0px !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.label-large {
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+}
+
+.table tr td {
+  border: none;
+}
+
+.table tr th {
+  border: none;
+}
+
+.table tbody tr {
+  height: 55px;
+}
+
+.table-card-body {
+  padding: 0px;
+}
+
+#table-icon {
+  margin-right: 10px;
+}
+
+.table-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.center-it {
+  justify-content: center;
+}
+
+.header-container {
+  margin-top: 4vh;
+  margin-bottom: 4vh;
+}
+
+#value-locked-icon {
+  margin-top: 8px;
+  margin-right: 12px;
+}
+
+.icon-wrapper {
+  display: flex;
+}
+
+.value-wrapper {
+  display: inline-block;
+}
+
+#value-borrowed-icon {
+  margin-top: 8px;
+  margin-right: 12px;
+}
+

@@ -65,10 +65,10 @@ export default function LockedAssetsCard() {
         />
         <Divider />
 
-        <ComingSoonProgressBar type="Binance USD" />
+        <ComingSoonProgressBar assetType="Binance USD" />
         <Divider />
 
-        <ComingSoonProgressBar type="Bitcoin" />
+        <ComingSoonProgressBar assetType="Bitcoin" />
 
 
       </Card.Body>

@@ -35,10 +35,10 @@ describe('LockedAssetCard', () => {
       expect(progrssBar).toHaveProp('limitPercent', 84.21070722134857)
 
       const comingSoonBinance = wrapper.find('ComingSoonProgressBar').first()
-      expect(comingSoonBinance).toHaveProp('type', 'Binance USD')
+      expect(comingSoonBinance).toHaveProp('assetType', 'Binance USD')
 
       const comingSoonBitcoin = wrapper.find('ComingSoonProgressBar').last()
-      expect(comingSoonBitcoin).toHaveProp('type', 'Bitcoin')
+      expect(comingSoonBitcoin).toHaveProp('assetType', 'Bitcoin')
 
       const kavaPrice = wrapper.find('.kava-price')
       expect(kavaPrice).toHaveText('$3.87')
